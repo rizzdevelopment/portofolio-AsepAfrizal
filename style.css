@@ -346,3 +346,54 @@ nav ul li a:hover{
     color: #4b5563;
 }
 
+@media screen and (max-width: 768px){
+
+    nav{
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+
+        padding: 50px 20px;
+    }
+
+    .hero-image img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+
+    .hero-text h2{
+        font-size: 28px;
+    }
+
+    .buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .skills,
+    .projects,
+    .contact{
+        padding: 80px 20px;
+    }
+
+    .skills-title h1,
+    .projects-title h1,
+    .contact-title h1{
+        font-size: 35px;
+    }
+
+}
